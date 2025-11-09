@@ -54,7 +54,7 @@ jobs:
           yarn build
         env:
           CI: false
-          PUBLIC_URL: /axx
+          PUBLIC_URL: /Programacion-Avanzada
       
       - name: Setup Pages
         uses: actions/configure-pages@v5
