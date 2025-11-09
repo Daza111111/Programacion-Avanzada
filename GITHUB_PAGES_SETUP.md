@@ -33,7 +33,7 @@ He corregido la configuración de GitHub Actions para que tu aplicación React s
 
 Ve a tu repositorio en GitHub:
 ```
-https://github.com/Daza111111/axx
+https://github.com/Daza111111/Programacion-Avanzada
 ```
 
 Luego:
