@@ -10,7 +10,7 @@ import sys
 from datetime import datetime
 
 # Configuration
-BACKEND_URL = "https://debug-assist-4.preview.emergentagent.com/api"
+BACKEND_URL = "https://academico-backend.preview.emergentagent.com/api"
 
 class AuthTester:
     def __init__(self):
