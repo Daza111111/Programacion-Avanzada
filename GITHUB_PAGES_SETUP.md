@@ -72,7 +72,7 @@ git push origin main
 
 Una vez desplegado, tu aplicación estará disponible en:
 
-**🌐 https://daza111111.github.io/axx/**
+**🌐 https://daza111111.github.io/Programacion-Avanzada/**
 
 ---
 
