@@ -18,12 +18,14 @@ jobs:
         with:
           node-version: '18'
           cache: 'yarn'
-          cache-dependency-path: 'yarn.lock'
+          cache-dependency-path: 'frontend/yarn.lock'
       
       - name: Install dependencies
+        working-directory: ./frontend
         run: yarn install --frozen-lockfile
       
       - name: Build React app
+        working-directory: ./frontend
         run: yarn build
         env:
           CI: false
@@ -35,7 +37,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './build'
+          path: './frontend/build'
       
       - name: Post Setup Node.js
         if: always()
