@@ -46,8 +46,7 @@ jobs:
           yarn build
         env:
           CI: false
-          # Configura la URL base si tu repositorio no está en la raíz
-          # PUBLIC_URL: /nombre-de-tu-repositorio
+          PUBLIC_URL: /axx
       
       - name: Setup Pages
         uses: actions/configure-pages@v5
