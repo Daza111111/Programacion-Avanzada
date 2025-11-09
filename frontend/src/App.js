@@ -58,9 +58,12 @@ function App() {
     );
   }
 
+  // Use basename only in production (GitHub Pages)
+  const basename = process.env.NODE_ENV === 'production' ? '/axx' : '/';
+  
   return (
     <div className="App">
-      <BrowserRouter basename="/axx">
+      <BrowserRouter basename={basename}>
         <Routes>
           <Route path="/" element={<Landing user={user} />} />
           <Route
