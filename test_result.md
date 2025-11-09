@@ -184,3 +184,5 @@ test_plan:
 agent_communication:
     - agent: "testing"
       message: "Completed comprehensive authentication testing. All 6 test scenarios passed: registration (student/teacher), login (student/teacher), authentication via /auth/me, MongoDB persistence verification, invalid credentials handling, and duplicate registration prevention. System is working correctly."
+    - agent: "main"
+      message: "Frontend configurado para conectarse al backend en Render (https://programacion-avanzada-1.onrender.com). El backend está desplegándose y puede tardar 3-5 minutos en estar completamente operativo. El frontend local está funcionando correctamente en localhost:3000."
