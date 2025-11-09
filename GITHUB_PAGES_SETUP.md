@@ -59,7 +59,7 @@ git push origin main
 
 1. Ve a la pestaña **Actions** en tu repositorio:
    ```
-   https://github.com/Daza111111/axx/actions
+   https://github.com/Daza111111/Programacion-Avanzada/actions
    ```
 
 2. Verás el workflow "Deploy React App to GitHub Pages" ejecutándose
