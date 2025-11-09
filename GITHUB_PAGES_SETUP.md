@@ -13,10 +13,10 @@ He corregido la configuración de GitHub Actions para que tu aplicación React s
    - Despliega la carpeta `build` a GitHub Pages
 
 2. **`frontend/package.json`**
-   - Agregado: `"homepage": "https://daza111111.github.io/axx"`
+   - Agregado: `"homepage": "https://daza111111.github.io/Programacion-Avanzada"`
 
 3. **`frontend/src/App.js`**
-   - Agregado `basename="/axx"` al BrowserRouter para rutas correctas
+   - Agregado `basename="/Programacion-Avanzada"` al BrowserRouter para rutas correctas (solo en producción)
 
 4. **`frontend/public/.nojekyll`** (NUEVO)
    - Evita que GitHub Pages procese la app como Jekyll
