@@ -97,6 +97,10 @@ Tu aplicación React usa una API backend (FastAPI). Para que funcione en GitHub 
 
 ## 🔧 Solución de Problemas
 
+### Error de cache en GitHub Actions
+- **Resuelto**: El workflow ahora usa un sistema de cache manual optimizado
+- Si ves errores sobre `yarn.lock`, asegúrate de que el archivo existe en `frontend/yarn.lock`
+
 ### La página muestra una pantalla en blanco
 - Verifica que el workflow se haya ejecutado sin errores
 - Revisa la consola del navegador (F12) para ver errores
