@@ -59,7 +59,7 @@ function App() {
   }
 
   // Use basename only in production (GitHub Pages)
-  const basename = process.env.NODE_ENV === 'production' ? '/axx' : '/';
+  const basename = process.env.NODE_ENV === 'production' ? '/Programacion-Avanzada' : '/';
   
   return (
     <div className="App">
